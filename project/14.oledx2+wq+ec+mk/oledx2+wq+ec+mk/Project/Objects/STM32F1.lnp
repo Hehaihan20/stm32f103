@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\stm32f10x_it.o"
+".\objects\system_stm32f10x.o"
+".\objects\systick.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\misc.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_spi.o"
+".\objects\stm32f10x_usart.o"
+".\objects\stm32f10x_exti.o"
+".\objects\oled.o"
+".\objects\matrixkeys.o"
+".\objects\menu.o"
+".\objects\utikites.o"
+".\objects\w25qxx.o"
+".\objects\ec35.o"
+".\objects\oled_92.o"
+".\objects\save_pic.o"
+".\objects\usart0.o"
+".\objects\soft_spi0.o"
+".\objects\spi0.o"
+--library_type=microlib --strict --scatter ".\Objects\STM32F1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32F1.map" -o .\Objects\STM32F1.axf

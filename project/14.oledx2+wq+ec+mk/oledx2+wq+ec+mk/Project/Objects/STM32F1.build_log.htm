@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: HE HE, HE, LIC=PE7DL-07GEI-X7MRZ-JD762-KJDCE-SY6HZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.13.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+E:\Codespace\keyboard\project\14.oledx2+wq+ec+mk\oledx2+wq+ec+mk\Project\STM32F1.uvprojx
+Project File Date:  09/05/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling stm32f10x_usart.c...
+compiling main.c...
+compiling systick.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_spi.c...
+assembling startup_stm32f10x_hd.s...
+compiling system_stm32f10x.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_it.c...
+../Hardware/MatrixKeys/MatrixKeys.c(62): warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+1 warning generated.
+compiling MatrixKeys.c...
+compiling oled.c...
+compiling Utikites.c...
+../Hardware/wq25xx/w25qxx.c(281): warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+        printf("fe:%x\r\n",Dst_Addr);     
+        ^
+../Hardware/wq25xx/w25qxx.c(281): note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 warning generated.
+compiling w25qxx.c...
+../Hardware/EC35/EC35.c(221): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            printf("顺时<D5><EB>\n<B5><B1>前<B6><C8><CA><FD>为<A3><BA>%d\r\n",get_angel());
+                      ^~~~~~~~
+../Hardware/EC35/EC35.c(221): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+            printf("顺时<D5><EB>\n<B5><B1>前<B6><C8><CA><FD>为<A3><BA>%d\r\n",get_angel());
+                                ^~~~~~~~ ~~~~~~~~~~~~~~~~ ~~~~~~~~
+../Hardware/EC35/EC35.c(222): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                          printf("<B5><B1>前menu为<A3><BA>%d\r\n",angel_count);
+                                                  ^~~~~~~~      ~~~~~~~~
+../Hardware/EC35/EC35.c(244): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                          printf("<C4><E6>时<D5><EB>\n<B5><B1>前<B6><C8><CA><FD>为<A3><BA>%d\r\n",get_angel());
+                                                  ^~~~~~~~ ~~~~~~~~
+../Hardware/EC35/EC35.c(244): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                                          printf("<C4><E6>时<D5><EB>\n<B5><B1>前<B6><C8><CA><FD>为<A3><BA>%d\r\n",get_angel());
+                                                                     ^~~~~~~~ ~~~~~~~~~~~~~~~~ ~~~~~~~~
+5 warnings generated.
+compiling EC35.c...
+compiling Menu.c...
+compiling oled_92.c...
+compiling save_pic.c...
+compiling Usart0.c...
+compiling Soft_SPI0.c...
+compiling SPI0.c...
+linking...
+Program Size: Code=17430 RO-data=646 RW-data=2952 ZI-data=4376  
+FromELF: creating hex file...
+".\Objects\STM32F1.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\keil_MDK5.34\keil_Pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

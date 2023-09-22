@@ -1,0 +1,30 @@
+
+#include "stm32f10x.h"
+#include "systick.h"
+#include <stdio.h>
+#include "usart.h"
+#include "oled.h"
+
+#include "bmp1.h"
+int main(void)
+{
+  systick_config();
+	usart_init(115200);
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置中断优先级分组为组2：2位抢占优先级，2位响应优先级
+	
+	printf("sda");
+	OLED_Init();
+	 OLED_ColorTurn(1);//0正常显示，1 反色显示
+    OLED_DisplayTurn(0);//0正常显示 1 屏幕翻转显示
+	  OLED_Clear();
+	  OLED_ShowPicture(1,1,16,16, BMP1,1);
+		OLED_Refresh();
+			delay_1ms(600);
+  while(1)
+		{
+			 
+  }
+}
+
+
+	

@@ -1,0 +1,44 @@
+
+#define FILE_NUME
+#define DIR_NUME
+#define DIR
+
+#define SINGLE_SECTOR_SIZE 							4096
+#define SINLE_BLOCK_SECTOR_NUME 		 		16
+#define SINGLE_BLOCK_SIZE								SINGLE_SECTOR_SIZE*SINLE_BLOCK_SECTOR_NUME
+
+#define TOTLE_BLOCK_NUM									64
+#define TOTLE_DIRK_SIZE 								TOTLE_BLOCK_NUM*SINGLE_BLOCK_SIZE
+
+#define BASE_ADDR                       0X000000
+
+#define REAL_BLOCK_NUM									10
+
+
+//USER 
+#define MENU_NUM                  REAL_BLOCK_NUM							
+#define MENU_0_ADDR								BASE_ADDR+(0*SINGLE_BLOCK_SIZE)
+#define MENU_1_ADDR  							BASE_ADDR+(1*SINGLE_BLOCK_SIZE)
+#define MENU_2_ADDR		            BASE_ADDR+(2*SINGLE_BLOCK_SIZE)
+#define MENU_3_ADDR	              BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+
+#define MENU_4_ADDR	 						  BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+#define MENU_5_ADDR								BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+#define MENU_6_ADDR								BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+#define MENU_7_ADDR									BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+#define MENU_8_ADDR		BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+#define MENU_9_ADDR		BASE_ADDR+(3*SINGLE_BLOCK_SIZE)
+
+
+
+#define PIC1_ADDR
+#define PIC2_ADDR
+#define PIC3_ADDR
+#define PIC4_ADDR
+#define PIC5_ADDR
+#define PIC6_ADDR
+#define PIC7_ADDR
+#define PIC8_ADDR
+#define PIC9_ADDR
+#define PIC10_ADDR
+#define PIC11_ADDR

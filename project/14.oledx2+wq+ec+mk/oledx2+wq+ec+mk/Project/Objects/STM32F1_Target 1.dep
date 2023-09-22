@@ -1,0 +1,682 @@
+Dependencies for Project 'STM32F1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\User\main.c)(0x64F6E326)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/main.o -MD)
+I (..\Middleware\usart\Usart0.h)(0x64F1B876)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (..\Hardware\OLED\oled.h)(0x64F5E690)
+I (..\User\systick.h)(0x64D9DEF2)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\Middleware\spi\SPI0.h)(0x64F1E2EE)
+I (..\Hardware\OLED_92\oled_92.h)(0x64F683AB)
+I (..\Hardware\Utilities\Menu.h)(0x64F69009)
+I (..\Hardware\OLED\bmp.h)(0x64F7F3A8)
+I (..\Hardware\Utilities\Utikites.h)(0x64F5F4AC)
+I (..\Hardware\MatrixKeys\MatrixKeys.h)(0x64F6A5E9)
+I (..\Hardware\EC35\EC35.h)(0x64F5E0B6)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+I (..\Hardware\Utilities\save_pic.h)(0x64F69ED6)
+I (..\Hardware\wq25xx\w25qxx.h)(0x64F5E05A)
+F (..\User\stm32f10x_it.c)(0x64F32830)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/stm32f10x_it.o -MD)
+I (..\User\stm32f10x_it.h)(0x61605444)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+F (..\User\system_stm32f10x.c)(0x61605444)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/system_stm32f10x.o -MD)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\User\systick.c)(0x64F696F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/systick.o -MD)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+F (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x61605446)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__MICROLIB SETA 1"-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 534" -Wa,armasm,--pd,"STM32F10X_HD SETA 1"-o ./objects/startup_stm32f10x_hd.o)
+F (..\Firmware\STM32F10x_StdPeriph_Driver\src\misc.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/misc.o -MD)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+F (..\Firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/stm32f10x_gpio.o -MD)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\Firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/stm32f10x_rcc.o -MD)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\Firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/stm32f10x_spi.o -MD)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\Firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/stm32f10x_usart.o -MD)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\Firmware\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x61605446)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/stm32f10x_exti.o -MD)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\Hardware\OLED\oled.c)(0x64F5EE5C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/oled.o -MD)
+I (..\Hardware\OLED\oled.h)(0x64F5E690)
+I (..\User\systick.h)(0x64D9DEF2)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\Middleware\spi\SPI0.h)(0x64F1E2EE)
+I (..\Hardware\OLED\oledfont.h)(0x5E14019C)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+F (..\Hardware\MatrixKeys\MatrixKeys.c)(0x64F1D626)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/matrixkeys.o -MD)
+I (..\Hardware\MatrixKeys\MatrixKeys.h)(0x64F6A5E9)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+F (..\Hardware\Utilities\Menu.c)(0x64F7F89D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/menu.o -MD)
+I (..\Hardware\Utilities\Menu.h)(0x64F69009)
+I (..\Hardware\OLED\oled.h)(0x64F5E690)
+I (..\User\systick.h)(0x64D9DEF2)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\Middleware\spi\SPI0.h)(0x64F1E2EE)
+I (..\Hardware\OLED\bmp.h)(0x64F7F3A8)
+I (..\Hardware\OLED_92\oled_92.h)(0x64F683AB)
+I (..\Hardware\Utilities\save_pic.h)(0x64F69ED6)
+I (..\Hardware\wq25xx\w25qxx.h)(0x64F5E05A)
+F (..\Hardware\Utilities\Utikites.c)(0x64F7F505)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/utikites.o -MD)
+I (..\Hardware\Utilities\Utikites.h)(0x64F5F4AC)
+I (..\Hardware\MatrixKeys\MatrixKeys.h)(0x64F6A5E9)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\Hardware\EC35\EC35.h)(0x64F5E0B6)
+I (..\User\systick.h)(0x64D9DEF2)
+I (..\Middleware\usart\Usart0.h)(0x64F1B876)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+I (..\Hardware\Utilities\Menu.h)(0x64F69009)
+I (..\Hardware\OLED\oled.h)(0x64F5E690)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\Middleware\spi\SPI0.h)(0x64F1E2EE)
+I (..\Hardware\OLED\bmp.h)(0x64F7F3A8)
+I (..\Hardware\OLED_92\oled_92.h)(0x64F683AB)
+F (..\Hardware\wq25xx\w25qxx.c)(0x64F692F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/w25qxx.o -MD)
+I (..\Hardware\wq25xx\w25qxx.h)(0x64F5E05A)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+F (..\Hardware\EC35\EC35.c)(0x64F1DB34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/ec35.o -MD)
+I (..\Hardware\EC35\EC35.h)(0x64F5E0B6)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+I (..\Middleware\usart\Usart0.h)(0x64F1B876)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+F (..\Hardware\OLED_92\oled_92.c)(0x64F684EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/oled_92.o -MD)
+I (..\Hardware\OLED_92\oled_92.h)(0x64F683AB)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+F (..\Hardware\OLED_92\oled_92.h)(0x64F683AB)()
+F (..\Hardware\Utilities\save_pic.c)(0x64F69F11)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/save_pic.o -MD)
+I (..\Hardware\Utilities\save_pic.h)(0x64F69ED6)
+I (..\Hardware\OLED\bmp.h)(0x64F7F3A8)
+I (..\Hardware\wq25xx\w25qxx.h)(0x64F5E05A)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+F (..\Hardware\Utilities\save_pic.h)(0x64F69ED6)()
+F (..\Middleware\usart\Usart0.c)(0x64F3216A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/usart0.o -MD)
+I (..\Middleware\usart\Usart0.h)(0x64F1B876)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+F (..\Middleware\spi\Soft_SPI0.c)(0x64F328BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/soft_spi0.o -MD)
+I (..\Middleware\spi\Soft_SPI0.h)(0x64F32884)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+F (..\Middleware\spi\SPI0.c)(0x64F3293C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../User -I ../Firmware/CMSIS/CM3/CoreSupport -I ../Firmware/CMSIS/CM3/DeviceSupport/ST/STM32F10x -I ../Firmware/STM32F10x_StdPeriph_Driver/inc -I ../Middleware/usart -I ../Middleware/spi -I ../Hardware/OLED -I ../Hardware/MatrixKeys -I ../Hardware/Utilities -I ../Hardware/EC35 -I ../Hardware/OLED_92 -I ../Hardware/OLED_42 -I ../Hardware/wq25xx-ID:/keil_MDK5.34/keil_Pack/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="534" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ./objects/spi0.o -MD)
+I (..\Middleware\spi\SPI0.h)(0x64F1E2EE)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x61605446)
+I (..\Firmware\CMSIS\CM3\CoreSupport\core_cm3.h)(0x61605446)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\Firmware\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x61605446)
+I (..\User\stm32f10x_conf.h)(0x61605442)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x61605446)
+I (..\Firmware\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x61605446)
+I (..\User\systick.h)(0x64D9DEF2)
+I (D:\keil_MDK5.34\keil_software\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
